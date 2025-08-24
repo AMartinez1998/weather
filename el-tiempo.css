@@ -1,0 +1,55 @@
+#formulario {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+label {
+  font-weight: bold;
+  font-size: xx-large;
+}
+input {
+  width: 300px;
+}
+#boton1 {
+  background-color: #90be6d;
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+#boton1:hover {
+  background-color: #6da94e;
+  transform: scale(1.05);
+}
+
+#emoji-clima {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150px;
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: 0;
+  user-select: none;
+}
+
+.titulo-clima {
+  color:#90be6d;
+  font-weight: bold;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  
+}
+.parrafo{
+  width: 400px;
+  margin: 0 auto;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
